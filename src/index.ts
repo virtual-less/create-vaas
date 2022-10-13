@@ -42,7 +42,7 @@ program
             `init vaas project complete!`+os.EOL+
             `1. cd ${serverDirName}`+os.EOL+
             `2. npm run dev`+os.EOL
-            )
+        )
     });
 
 program.command('help')

@@ -7,7 +7,7 @@
     "create-vaas": "./build/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run dev && test -e vaas-project",
     "build":"tsc",
     "dev":"npm run build && node ./build/index.js",
     "prepublish": "npm run build"
