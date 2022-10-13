@@ -1,6 +1,6 @@
 {
   "name": "create-vaas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create vaas project cli",
   "main": "./build/index.js",
   "bin": {
