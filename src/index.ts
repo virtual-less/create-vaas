@@ -28,7 +28,7 @@ program
     .action(async (serverDirName) => {
         if(!serverDirName) {serverDirName='vaas-project'}
         const serverDirPath = path.join(process.cwd(), serverDirName)
-        await execPromise(`git clone https://github.com/virtual-less/create-vaas.git ${serverDirName}`,{
+        await execPromise(`git clone https://github.com/virtual-less/vaas-template.git ${serverDirName}`,{
             cwd:process.cwd()
         })
         await execPromise(`rm -rf .git`,{
